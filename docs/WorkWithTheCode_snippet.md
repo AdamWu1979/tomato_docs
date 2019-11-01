@@ -34,4 +34,6 @@ Ox::CalculatorT1Results<double> CalculateShmolli(
     return calculatorT1Shmolli.GetResults();
 }
 
+```
+
 ## Code snippet explanation
