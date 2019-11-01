@@ -16,10 +16,9 @@ When contrast agent is injected its propagation in the organ can be modeled. Thi
 Relaxation time maps and perfusion maps are often called **parametric maps**. Parametric maps are a promising research tool in cardiac diagnosis and therapy planning.
 
 In other words:
-```
-To generate a parametric map of perfusion or relaxation times, multiple images of the same region of the myocardium are acquired with different sensitivity to the parameter of interest, and the signal intensities of these images are fit to a model that describes the underlying physiology or relaxation parameters. The parametric map is an image of the fitted perfusion parameters or relaxation times.
-```
-According to https://doi.org/10.1016/j.jcmg.2013.05.005
+> *To generate a parametric map of perfusion or relaxation times, multiple images of the same region of the myocardium are acquired with different sensitivity to the parameter of interest, and the signal intensities of these images are fit to a model that describes the underlying physiology or relaxation parameters. The parametric map is an image of the fitted perfusion parameters or relaxation times.*
+
+According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 
 ## T1
 
@@ -27,24 +26,24 @@ According to https://doi.org/10.1016/j.jcmg.2013.05.005
 
 {% include T1.html %}
 
-* http://mriquestions.com/what-is-t1.html
-* https://qmrlab.org/jekyll/2018/10/23/T1-mapping-inversion-recovery.html
+* <http://mriquestions.com/what-is-t1.html>
+* <https://qmrlab.org/jekyll/2018/10/23/T1-mapping-inversion-recovery.html>
 
 ### Why T1 matters in cardiac MRI
-* http://mriquestions.com/t1-mapping.html
+* <http://mriquestions.com/t1-mapping.html>
 
 ## T2
 
 ### What is T2
-* http://mriquestions.com/what-is-t2.html
+* <http://mriquestions.com/what-is-t2.html>
 
 ### Why T2 matters in cardiac MRI
-* http://mriquestions.com/edemat2-mapping.html
+* <http://mriquestions.com/edemat2-mapping.html>
 
 ## T2*
 
 ### What is T2*
-* http://mriquestions.com/t2-vs-t2.html
+* <http://mriquestions.com/t2-vs-t2.html>
 
 ### Why T2 matters in cardiac MRI
-* http://mriquestions.com/iront2-mapping.html
+* <http://mriquestions.com/iront2-mapping.html>
