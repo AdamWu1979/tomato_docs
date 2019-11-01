@@ -4,10 +4,6 @@ has_children: true
 nav_order: 2
 ---
 
-## How to calculate a map - a video guide
-
-[![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
-
 ## How to calculate a map - step by step guide
 
 * Download TomatoExe for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>
@@ -24,7 +20,9 @@ nav_order: 2
 TomatoExe.exe myTomatoConfigFile.yml
 ```
 * The maps have been generated in the output directory specified in myTomatoConfigFile.yml
-* See the maps using your favourite dicom browser, for example <http://www.microdicom.com/> or <https://horosproject.org/> 
+* See the maps using your favourite dicom browser, for example <http://www.microdicom.com/> or <https://horosproject.org/>
 * Enjoy 🍅🍅🍅
 
-## How to calculate a map - step by step guide
+## How to calculate a map - a video guide
+
+[![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
