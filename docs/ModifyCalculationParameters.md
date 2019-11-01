@@ -1,8 +1,7 @@
 ---
-title: Child of Test
-parent: Test
+title: Modify calculation parameters
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
 # Child of test
