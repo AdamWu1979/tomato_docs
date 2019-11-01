@@ -1,6 +1,6 @@
 ---
 title: Child of Modify calculation parameters
-parent: Modify calculation parameters
+parent: Work with yaml files
 nav_order: 1
 ---
 
