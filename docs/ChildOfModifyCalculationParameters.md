@@ -1,6 +1,6 @@
 ---
 title: Child of CalculateMaps
-parent: Calculate maps
+parent: Modify calculation parameters
 nav_order: 1
 ---
 
