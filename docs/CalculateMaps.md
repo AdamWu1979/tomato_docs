@@ -7,7 +7,10 @@ nav_order: 2
 
 `TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify what are the input DICOM files and the settings of map calculation a `yaml` file is used as an input. For detailed Toamto `yaml` description see how to [work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 
+# Terminal
+
 {% include terminal.html %}
+
 
 ## How to calculate a map - step by step guide
 
