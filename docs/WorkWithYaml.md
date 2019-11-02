@@ -10,7 +10,6 @@ nav_order: 3
 As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details) like fitting method.
 
 This site has been prepared for `Tomato` v0.4.3.
-
 Important
 {: .label .label-red }
 
@@ -20,9 +19,10 @@ Important
 
 A set of DICOM files has to be passed to `TomatoExe` to perform calculation. This can be done by a list of file paths or a single directory containing the DICOM files.
 
+<div class="code-example" markdown="1">
+
 Correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
 {: .d-inline-block }
-
 Required
 {: .label .label-blue }
 
@@ -35,11 +35,11 @@ Required
 
 The output files of `TomatoExe` are DICOM files with **maps** written to the `dir_output_map` path and other **fitting parameters** stored in the `dir_output_fitparams`.
 
-<div class="code-example" markdown="1">
+Correct `dir_output_map` has to be present to save the results.
+{: .d-inline-block }
+
 Required
 {: .label .label-blue }
-Correct `dir_output_map` has to be present to save the results.
-</div>
 
 * `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
 * `dir_output_fitparams`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
