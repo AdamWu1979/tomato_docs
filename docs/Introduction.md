@@ -9,7 +9,7 @@ nav_order: 1
 
 In clinical MRI we can acquire series of images with different acquisition settings or in a different physiological states. The changes observed on the images correspond to change of certain physical or physiological parameters. If the model of this change is known, a mathematical procedure called fitting can be performed to extract the parameters from the data. If this procedure is performed in every pixel a **parametric map** is generated.
 
-The most common physical parameters used in MRI are relaxation times: [T1](#T1), [T2](#T2), [T2*](#T2*). The relation between relaxation times and different acquisition settings allow to model the changes observed on the images and thus generation of **relaxation time maps**.
+The most common physical parameters used in MRI are relaxation times: [T1](#T1), [T2](#T2), [T2star](#T2star). The relation between relaxation times and different acquisition settings allow to model the changes observed on the images and thus generation of **relaxation time maps**.
 
 When contrast agent is injected its propagation in the organ can be modeled. This way physiological parameters of the organ are reflected in generated **perfusion maps**.
 
@@ -23,6 +23,8 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 ## T1
 
 ### What is T1
+<!-- <https://www.codecogs.com/latex/eqneditor.php> -->
+<img src="https://latex.codecogs.com/svg.latex?\inline&space;​M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}/&space;T_1)" title="​M(t) = A - B \exp (- T_{inv}/ T_1)" />
 
 {% include T1.html %}
 
@@ -40,10 +42,10 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 ### Why T2 matters in cardiac MRI
 * <http://mriquestions.com/edemat2-mapping.html>
 
-## T2*
+## T2star
 
-### What is T2*
+### What is T2star
 * <http://mriquestions.com/t2-vs-t2.html>
 
-### Why T2 matters in cardiac MRI
+### Why T2star matters in cardiac MRI
 * <http://mriquestions.com/iront2-mapping.html>

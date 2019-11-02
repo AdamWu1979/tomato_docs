@@ -8,28 +8,18 @@ var dataMyo = new Array(invTimes.length);
 var i;
 for (i = 0; i < invTimes.length; i++) {
   dataBlood[i] = { x: invTimes[i], y: blood[i]};
-  dataMyo[i] = { x: invTimes[i], y: myo[i]};
+  dataMyo[i]   = { x: invTimes[i], y: myo[i]};
 }
 
-datasetBlood = { label: 'Blood', data: dataBlood, fill: false, borderColor: "#c45850" }
-datasetMyo = { label: 'Myocardium', data: dataMyo, fill: false, borderColor: "#3cba9f" }
+var datasetBlood = { label: 'Blood', data: dataBlood, fill: false, borderColor: "#c45850" }
+var datasetMyo = { label: 'Myocardium', data: dataMyo, fill: false, borderColor: "#3cba9f" }
+
+var xAxes: { type: 'linear', scaleLabel: { display: true, labelString: 'Inversion time' } }
+var yAxes: { type: 'linear', scaleLabel: { display: true, labelString: 'Magnetisation' } }
 
 var ctx = document.getElementById("chartT1");
 var scatterChart = new Chart(ctx, {
   type: 'line',
   data: { datasets: [datasetBlood, datasetMyo] },
-  options: {
-    scales: {
-      xAxes: [{
-        type: 'linear',
-        scaleLabel: { display: true, labelString: 'Inversion time' }
-      }],
-      yAxes: [{
-        type: 'linear',
-        scaleLabel: { display: true, labelString: 'Magnetisation' }
-      }]
-    }
-  }
+  options: { scales: { xAxes: xAxes, yAxes: yAxes }}
 });
-
-console.log(scatterChart.options.scales.xAxes)

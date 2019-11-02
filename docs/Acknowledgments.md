@@ -12,5 +12,3 @@ nav_order: 4
 ## Theme for the tomato_docs site
 Theme from <https://github.com/pmarsceill/just-the-docs>
 Using <https://pmarsceill.github.io/just-the-docs/#quick-start-use-as-a-github-pages-remote-theme>
-
-{% include world.html %}
