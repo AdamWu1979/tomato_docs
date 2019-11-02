@@ -9,11 +9,10 @@ nav_order: 3
 
 As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details) like fitting method.
 
-<div class="code-example" markdown="1">
 This site has been prepared for `Tomato` v0.4.3.
+
 Important
 {: .label .label-red }
-</div>
 
 ## What the fields in the yaml file mean
 
@@ -21,11 +20,11 @@ Important
 
 A set of DICOM files has to be passed to `TomatoExe` to perform calculation. This can be done by a list of file paths or a single directory containing the DICOM files.
 
-<div class="code-example" markdown="1">
+Correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
+{: .d-inline-block }
+
 Required
 {: .label .label-blue }
-Correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
-</div>
 
 * `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
 * `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
@@ -69,7 +68,7 @@ Correct `dir_output_map` has to be present to save the results.
   * `RealImag` signal recovery as described in Xue's 2013 article https://dx.doi.org/10.1002%2Fmrm.24385
 * `start_point_calc_method`
   * `DefaultThreeParam` default [100 200 1200], starting point for the fitting procedure
-  * `DefaultTwoParam` default [100 200 1200], starting point for the fitting procedure
+  * `DefaultTwoParam` default [100 1000], starting point for the fitting procedure
   * `StartPointSHMOLLI` start point calculation as used in Piechnik's 2010 article https://doi.org/10.1186/1532-429X-12-69
 
 ## Sample yaml file
