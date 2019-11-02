@@ -3,7 +3,11 @@ title: Calculate maps
 nav_order: 2
 ---
 
-# How to calculate maps with TOMATO
+# How to calculate maps with TomatoExe
+
+`TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify what are the input DICOM files and the settings of map calculation a `yaml` file is used as an input. For detailed Toamto `yaml` description see [Work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
+
+[![asciicast](https://asciinema.org/a/1C9dcW6oa7KJFNu4M1x8cFnzW.svg)](https://asciinema.org/a/1C9dcW6oa7KJFNu4M1x8cFnzW)
 
 ## How to calculate a map - step by step guide
 
