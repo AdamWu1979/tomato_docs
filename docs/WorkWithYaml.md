@@ -4,7 +4,8 @@ nav_order: 3
 ---
 
 Important
-{: .label .label-red } This site has been prepared for `Tomato` v0.4.3.
+{: .label .label-red }
+This site has been prepared for `Tomato` v0.4.3.
 
 # Modify calculation parameters
 
@@ -17,7 +18,8 @@ As input `TomatoExe` is taking a `yaml` configuration file. In this file all the
 A set of DICOM files has to be passed to `TomatoExe` to perform calculation. This can be done by a list of file paths or a single directory containing the DICOM files.
 
 Required
-{: .label .label-blue } correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
+{: .label .label-blue }
+correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
 
 * `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
 * `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
@@ -29,7 +31,8 @@ Required
 The output files of `TomatoExe` are DICOM files with **maps** written to the `dir_output_map` path and other **fitting parameters** stored in the `dir_output_fitparams`.
 
 Required
-{: .label .label-blue } correct `dir_output_map` has to be present to save the results.
+{: .label .label-blue }
+correct `dir_output_map` has to be present to save the results.
 
 * `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
 * `dir_output_fitparams`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
