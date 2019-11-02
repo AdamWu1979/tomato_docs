@@ -9,7 +9,7 @@ nav_order: 1
 
 In clinical MRI we can acquire series of images with different acquisition settings or in a different physiological states. The changes observed on the images correspond to change of certain physical or physiological parameters. If the model of this change is known, a mathematical procedure called fitting can be performed to extract the parameters from the data. If this procedure is performed in every pixel a **parametric map** is generated.
 
-The most common physical parameters used in MRI are relaxation times: [T1](#T1), [T2](#T2), [T2star](#T2star). The relation between relaxation times and different acquisition settings allow to model the changes observed on the images and thus generation of **relaxation time maps**.
+The most common physical parameters used in MRI are relaxation times: [T1](#t1), [T2](#t2), [T2star](#t2star). The relation between relaxation times and different acquisition settings allow to model the changes observed on the images and thus generation of **relaxation time maps**.
 
 When contrast agent is injected its propagation in the organ can be modeled. This way physiological parameters of the organ are reflected in generated **perfusion maps**.
 

@@ -1,6 +1,5 @@
 ---
 title: Work with yaml files
-has_children: true
 nav_order: 3
 ---
 
