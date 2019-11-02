@@ -55,7 +55,7 @@ Usually measured with Spin Echo MRI sequences.
 ### What is T2star
 Usually measured with Gradient MRI sequences
 
-<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T*_2)" title="M(t) = A exp (- T_E(t)/ T*_2)" />
+<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T^*_2)" title="M(t) = A exp (- T_E(t)/ T^*_2)" />
 
 {% include T2star.html %}
 

@@ -6,5 +6,4 @@ nav_order: 4
 
 ## How to work with the code
 
-Coming soon
-{: .label .label-yellow }
+See the repository here: <https://github.com/MRKonrad/tomato>.

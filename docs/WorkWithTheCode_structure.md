@@ -1,12 +1,14 @@
 ---
 title: Code structure
 parent: Work with the code
-nav_order: 2
+nav_order: 3
 ---
 
 ## Code structure
 
 ![Code Structure](../images/Fig2.png)
+
+{:toc}
 
 ### Calculator class
 Coming soon

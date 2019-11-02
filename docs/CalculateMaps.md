@@ -7,10 +7,7 @@ nav_order: 2
 
 `TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify what are the input DICOM files and the settings of map calculation a `yaml` file is used as an input. For detailed Toamto `yaml` description see how to [work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 
-# Terminal
-
 {% include terminal.html %}
-
 
 ## How to calculate a map - step by step guide
 
@@ -26,11 +23,11 @@ nav_order: 2
 
 * Run TomatoExe
   * on OSX or Linux
-```command
+```console
 ./TomatoExe myTomatoConfigFile.yml
 ```
   * on Windows:
-```command
+```console
 TomatoExe.exe myTomatoConfigFile.yml
 ```
 
@@ -46,3 +43,11 @@ TomatoExe.exe myTomatoConfigFile.yml
 A youtube tutorial can be found here <https://www.youtube.com/watch?v=0tzNZNiZh18>
 
 [![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
+
+## Sample scenarios when Tomato can be used
+
+* when the maps are not generated automatically on the scanners
+* when vendor change the algorithm with witch the automatically generated maps have been calculated
+* when one wants to calculate maps with different algorithm or parameters than these from the scanner
+* when one wants to generate R2 or SNR or SD maps
+* when one wants to ensure that the same algorithm was used to calculate results in their whole study
