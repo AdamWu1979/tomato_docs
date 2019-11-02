@@ -1,7 +1,7 @@
 ---
 title: Code snippet
 parent: Work with the code
-nav_order: 1
+nav_order: 5
 ---
 
 ## Code snippet

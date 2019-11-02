@@ -1,9 +1,10 @@
 ---
 title: Work with the code
 has_children: true
-nav_order: 3
+nav_order: 4
 ---
 
-## How the code is structured
+## How to work with the code
 
-the amazing code structure will be explained here
+Coming soon
+{: .label .label-yellow }
