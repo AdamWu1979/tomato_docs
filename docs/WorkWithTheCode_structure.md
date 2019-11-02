@@ -6,7 +6,7 @@ nav_order: 2
 
 ## Code structure
 
-![Code Structure](../images/Fig2.jpg)
+![Code Structure](../images/Fig2.png)
 
 ### Calculator class
 Coming soon
