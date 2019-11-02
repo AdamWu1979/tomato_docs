@@ -10,8 +10,9 @@ nav_order: 3
 As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details) like fitting method.
 
 <div class="code-example" markdown="1">
-Important{: .label .label-red }
 This site has been prepared for `Tomato` v0.4.3.
+Important
+{: .label .label-red }
 </div>
 
 ## What the fields in the yaml file mean
