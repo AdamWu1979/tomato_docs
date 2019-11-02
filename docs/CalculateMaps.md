@@ -11,7 +11,7 @@ nav_order: 2
 
 ## How to calculate a map - step by step guide
 
-* Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>
+* Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>. See the discussion about Tomato OpenSource and Full version [here](https://mrkonrad.github.io/tomato_docs/docs/WorkWithYaml.html#tomatoopensource-vs-tomatofull).
 
 * Download `testData.zip` from here <https://github.com/MRKonrad/tomato/releases/latest>
 
