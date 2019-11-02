@@ -4,6 +4,7 @@ TOMATO (Total Mapping Toolbox) is a C++ library for the calculation of parametri
 
 * To see the code go to <https://github.com/MRKonrad/tomato> and enjoy 🍅🍅🍅
 * To download the executable go to <https://github.com/MRKonrad/tomato/releases/latest> and enjoy 🍅🍅🍅
+* This website address is <https://mrkonrad.github.io/tomato_docs/>
 
 # Why
 Write about the need for transparency and reproducibility
@@ -20,9 +21,9 @@ Open source C++ library to calculate parametric maps in cardiovascular magnetic 
 
 # How to use TOMATO
 
-*   App - download the latest version of `TomatoExe` from the [Releases][https://github.com/MRKonrad/tomato/releases/latest] page and follow the youtube tutorial below
+*   App - download the latest version of `TomatoExe` from the [Releases](https://github.com/MRKonrad/tomato/releases/latest]) page and follow the youtube tutorial below
 [![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
 
-*   Lib - download the latest version of `TomatoLib` from the [Releases][https://github.com/MRKonrad/tomato/releases/latest] page
+*   Lib - download the latest version of `TomatoLib` from the [Releases](https://github.com/MRKonrad/tomato/releases/latest) page
 
 *   Code - if you want to build the code please take a look at the scripts in the `scriptsBuild` and the continuous integrations scripts `.appveyor.yml` and `travis.yml`

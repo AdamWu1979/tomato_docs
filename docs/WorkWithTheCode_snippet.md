@@ -37,5 +37,12 @@ Ox::CalculatorT1Results<double> CalculateShmolli(
 ```
 
 ## Code snippet explanation
-Coming soon
-{: .label .label-yellow }
+
+The detailed role of each class has been described in the [code specification section]({{ site.baseurl }}{% link docs/WorkWithTheCode_specification.md %}).
+
+* In this example as input we have following arrays of size `nSamples`: `sigMag`, `sigPha`, `invTimes`.
+* First we instantiate the objects necessary for the calculation.
+* Then we configure the `calculatorT1Shmolli` with the instantiated objects, for example the fitter by `calculatorT1Shmolli.setFitter(&fitter);`.
+* Then we assign the input data to the the `calculatorT1Shmolli`, for example by calculatorT1Shmolli.setInvTimes(invTimes);
+* Then we call the calculation method `calculatorT1Shmolli.calculate();`.
+* Then we can process the results `calculatorT1Shmolli.GetResults();` 🍅🍅🍅

@@ -6,8 +6,6 @@ var invTimes = [0, 1000, 2000, 3000, 4000, 5000, 6000, 7000]
 var blood    = [-60.0,   -1.9,   29.2,   45.8,   54.7,   59.5,   62.1,   63.4]
 var myo      = [-60.0,   20.9,   48.2,   57.3,   60.4,   61.5,   61.8,   61.9]
 
-console.log('a')
-
 var dataBlood = new Array(invTimes.length);
 var dataMyo = new Array(invTimes.length);
 

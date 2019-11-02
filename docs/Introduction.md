@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Theory
 nav_order: 1
 ---
 
@@ -25,7 +25,7 @@ Below we present a set of online resources helpful in understanding **parametric
 ## T1
 
 ### What is T1
-<!-- <https://www.codecogs.com/latex/eqneditor.php> -->
+
 <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}(t)/&space;T_1)" title="M(t) = A - B \exp (- T_{inv}(t)/ T_1)" />
 
 {% include T1.html %}
