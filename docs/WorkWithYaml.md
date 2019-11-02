@@ -7,11 +7,19 @@ nav_order: 3
 
 As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details) like fitting method.
 
-#### This site has been prepared for `Tomato` v0.4.3.
+### This site has been prepared for `Tomato` v0.4.3.
 {: .d-inline-block }
 
 Important
-{: .label .label-green }
+{: .label .label-red }
+
+### TomatoOpenSource vs TomatoFull
+
+Important
+{: .label .label-red }
+
+There are two `Tomato` version available: `TomatoOpenSource` compiled with publicly available code and `TomatoFull` containing additionally private code used for `AmoebaPrivateNr2` fitting algorithm using Nelder–Mead algorithm based on Numerical Recipes.
+
 
 ## What the fields in the yaml file mean
 
@@ -19,7 +27,11 @@ Important
 
 A set of DICOM files has to be passed to `TomatoExe` to perform calculation. This can be done by a list of file paths or a single directory containing the DICOM files.
 
-**Correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.**
+### Correct `files_magnitude` or `dir_magnitude` has to be present to perform calculations.
+{: .d-inline-block }
+
+Important
+{: .label .label-blue }
 
 * `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
 * `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
@@ -30,7 +42,11 @@ A set of DICOM files has to be passed to `TomatoExe` to perform calculation. Thi
 
 The output files of `TomatoExe` are DICOM files with **maps** written to the `dir_output_map` path and other **fitting parameters** stored in the `dir_output_fitparams`.
 
-**Correct `dir_output_map` has to be present to save the results.**
+### Correct `dir_output_map` has to be present to save the results.
+{: .d-inline-block }
+
+Important
+{: .label .label-blue }
 
 * `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
 * `dir_output_fitparams`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
@@ -50,7 +66,7 @@ The output files of `TomatoExe` are DICOM files with **maps** written to the `di
 * `fitting_method`
   * `AmoebaVnl` fitting using Nelder–Mead algorithm implemented in VNL <https://vxl.github.io/>
   * `LevMarVnl` fitting using Levenberg–Marquardt algorithm implemented in VNL <https://vxl.github.io/>
-  * `AmoebaPrivateNr2` fitting using Nelder–Mead algorithm loosely based on Numerical Recipes <http://numerical.recipes>
+  * `AmoebaPrivateNr2` fitting using Nelder–Mead algorithm based on Numerical Recipes <http://numerical.recipes>
 * `fTolerance`: default 1e-12, fitting tolerance, the small the better the fitting result, but the slower the fitting procedure.
 * `max_function_evals`: default 4000, maximum number of model function evaluations performed if the fTolerance has not been reached. The gigher the number the better the fitting result, but slower the fitting procedure.
 * `sign_calc_method` as the input data is usually provided as magnitude, the information about the sign of the signal is missing. The calculator chosen in this settin will be responsible for recovering the sign either from just magnitude data (`MagOnly`) or from magnitude and phase data. If the phase data has not been provided in `files_phase` or `dir_phase`, this setting will be changed to `MagOnly`.
