@@ -13,7 +13,13 @@ On this website you can find
 Enjoy Tomato! 🍅🍅🍅
 
 
-<!-- # Why
+<!--
+The aim of this website:
+-	 How to use tomato to calculate maps
+-	 How to use tomato to play with parameters
+-	 How to use tomato to develop new methods
+
+# Why
 Write about the need for transparency and reproducibility
 
 # What is Tomato
