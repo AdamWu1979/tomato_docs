@@ -10,7 +10,7 @@ nav_order: 2
 * Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>
 * Download `testData.zip` from here <https://github.com/MRKonrad/tomato/releases/latest>
 * Unzip the downloaded files
-* Prepare a `yaml` configuration file, for example by modifying the ones provided in `testData.zip`, or generate your own one like `myTomatoConfigFile.yml`. For details on how to use `yaml` in `Tomato` please see [Work with yaml files](docs/WorkWithYaml)
+* Prepare a `yaml` configuration file, for example by modifying the ones provided in `testData.zip`, or generate your own one like `myTomatoConfigFile.yml`. For details on how to use `yaml` in `Tomato` please see [Work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.html %})
 * Using command line navigate to the directory with `TomatoExe` file
 * Run TomatoExe
   * on OSX or Linux
