@@ -24,7 +24,7 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 
 ### What is T1
 <!-- <https://www.codecogs.com/latex/eqneditor.php> -->
-<img src="https://latex.codecogs.com/svg.latex?\inline&space;​M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}/&space;T_1)" title="​M(t) = A - B \exp (- T_{inv}/ T_1)" />
+<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}(t)/&space;T_1)" title="M(t) = A - B \exp (- T_{inv}(t)/ T_1)" />
 
 {% include T1.html %}
 
@@ -37,6 +37,10 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 ## T2
 
 ### What is T2
+Usually measured with Spin Echo MRI sequences.
+
+<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_R(t)/&space;T_1)" title="M(t) = A exp (- T_R(t)/ T_1)" />
+
 * <http://mriquestions.com/what-is-t2.html>
 
 ### Why T2 matters in cardiac MRI
@@ -45,7 +49,8 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 ## T2star
 
 ### What is T2star
+Usually measured with Gradient MRI sequences
 * <http://mriquestions.com/t2-vs-t2.html>
-
+* <https://youtu.be/r0dYgcN3HcU>
 ### Why T2star matters in cardiac MRI
 * <http://mriquestions.com/iront2-mapping.html>
