@@ -5,8 +5,8 @@ TOMATO (Total Mapping Toolbox) is a C++ library for the calculation of parametri
 To see the Tomato code please go to <https://github.com/MRKonrad/tomato>.
 
 On this website you can find
-* [a tutorial]({{ site.baseurl }}{% link docs/CalculateMaps.md %}),
-* [a short introduction to parametric mapping]({{ site.baseurl }}{% link docs/Introduction.md %}),
+* [tutorial]({{ site.baseurl }}{% link docs/CalculateMaps.md %}),
+* [short introduction to parametric mapping]({{ site.baseurl }}{% link docs/Introduction.md %}),
 * [instruction on how to work with Tomato yaml configuration files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}), and
 * [instruction on how to work with Tomato code]({{ site.baseurl }}{% link docs/WorkWithTheCode.md %}).
 

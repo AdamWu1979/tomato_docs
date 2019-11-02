@@ -26,7 +26,7 @@ nav_order: 2
 ```console
 ./TomatoExe myTomatoConfigFile.yml
 ```
-  * on Windows:
+  * on Windows
 ```console
 TomatoExe.exe myTomatoConfigFile.yml
 ```
