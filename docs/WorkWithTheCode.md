@@ -6,6 +6,4 @@ nav_order: 3
 
 ## How the code is structured
 
-Coming soon {: .label .label-yellow }
-
 the amazing code structure will be explained here
