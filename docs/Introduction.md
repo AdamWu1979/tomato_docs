@@ -20,6 +20,8 @@ In other words:
 
 According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 
+Below we present a set of online resources helpful in understanding **parametric maps**.
+
 ## T1
 
 ### What is T1
@@ -39,7 +41,9 @@ According to <https://doi.org/10.1016/j.jcmg.2013.05.005>
 ### What is T2
 Usually measured with Spin Echo MRI sequences.
 
-<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_R(t)/&space;T_1)" title="M(t) = A exp (- T_R(t)/ T_1)" />
+<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T_2)" title="M(t) = A exp (- T_E(t)/ T_2)" />
+
+{% include T2.html %}
 
 * <http://mriquestions.com/what-is-t2.html>
 
@@ -50,7 +54,15 @@ Usually measured with Spin Echo MRI sequences.
 
 ### What is T2star
 Usually measured with Gradient MRI sequences
+
+<img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T*_2)" title="M(t) = A exp (- T_E(t)/ T*_2)" />
+
+{% include T2star.html %}
+
+* <https://pmj.bmj.com/content/89/1050/209#F7>
 * <http://mriquestions.com/t2-vs-t2.html>
 * <https://youtu.be/r0dYgcN3HcU>
+
 ### Why T2star matters in cardiac MRI
+
 * <http://mriquestions.com/iront2-mapping.html>
