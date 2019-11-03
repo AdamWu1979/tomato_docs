@@ -11,13 +11,13 @@ nav_order: 2
 
 ## How to calculate a map - step by step guide
 
-* Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>. See the discussion about Tomato OpenSource and Full version [here](https://mrkonrad.github.io/tomato_docs/docs/WorkWithYaml.html#tomatoopensource-vs-tomatofull).
+* Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>. See the discussion about Tomato `OpenSource` and `Full` version [here](https://mrkonrad.github.io/tomato_docs/docs/WorkWithYaml.html#tomatoopensource-vs-tomatofull).
 
-* Download `testData.zip` from here <https://github.com/MRKonrad/tomato/releases/latest>
+* Download `testData.zip` from here <https://github.com/MRKonrad/tomato/releases/latest>.
 
 * Unzip the downloaded files
 
-* Prepare a `yaml` configuration file, for example by modifying the ones provided in `testData.zip`, or generate your own one like `myTomatoConfigFile.yml`. For details on how to use `yaml` in `Tomato` please see [Work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %})
+* Prepare a `yaml` configuration file, for example by modifying the ones provided in `testData.zip`, or generate your own one like `myTomatoConfigFile.yml`. For details on how to use `yaml` in `Tomato` please see the section about [working with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 
 * Using command line navigate to the directory with `TomatoExe` file
 
@@ -31,9 +31,9 @@ nav_order: 2
 TomatoExe.exe myTomatoConfigFile.yml
 ```
 
-* The maps have been generated in the output directory specified in `myTomatoConfigFile.yml`
+* The maps have been generated in the output directory specified in `myTomatoConfigFile.yml`.
 
-* See the maps using your favourite DICOM browser, for example <http://www.microdicom.com/> or <https://horosproject.org/>
+* See the maps using your favourite DICOM browser, for example <http://www.microdicom.com/> for Windows or <https://horosproject.org/> for OSX.
 
 * Enjoy 🍅🍅🍅
 

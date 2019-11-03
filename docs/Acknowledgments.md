@@ -9,4 +9,4 @@ nav_order: 8
 * We would like to thank Iulius Dragonu, Qiang Zhang, Iulia Popescu, Evan Hann, Henrike Puchta, Agata Kubik, Dogan Polat, Cody Wu, Niall O Moon, Ahmet Barutcu, Vanessa M Ferreira and Layal Liverpool for their contribution to this work.
 * This work has been supported by the British Heart Foundation (grant number [PG/15/71/31731](https://www.bhf.org.uk/research-projects/analysis-of-diffuse-fibrosis-with-t1-mapping-in-the-cmr-in-hypertrophic-cardiomyopathy-hcmr-study)).
 * Part of the code is protected by the US patent [US20120078084A1](https://patents.google.com/patent/US20120078084A1/en).
-* Theme for this site can be found [here](https://github.com/pmarsceill/just-the-docs) with a tutorial [here](https://pmarsceill.github.io/just-the-docs/#quick-start-use-as-a-github-pages-remote-theme)
+* Theme for this site can be found [here](https://github.com/pmarsceill/just-the-docs) with a tutorial [here](https://pmarsceill.github.io/just-the-docs/#quick-start-use-as-a-github-pages-remote-theme).

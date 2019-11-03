@@ -5,7 +5,7 @@ nav_order: 3
 
 # Modify calculation parameters in Tomato v0.4.3
 
-As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details) like fitting method.
+As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details).
 
 ## TomatoOpenSource vs TomatoFull
 {: .d-inline-block }
@@ -13,10 +13,9 @@ As input `TomatoExe` is taking a `yaml` configuration file. In this file all the
 Important
 {: .label .label-red }
 
-There are two `Tomato` version available: `TomatoOpenSource` compiled with publicly available code and `TomatoFull` containing additionally private code used for `AmoebaPrivateNr2` fitting algorithm using Nelder–Mead algorithm based on [Numerical Recipes](http://numerical.recipes). Due to [Numerical Recipes](http://numerical.recipes) licence limitation this code cannot be made publicly available.
+There are two `Tomato` version available: `TomatoOpenSource` compiled with publicly available code and `TomatoFull` containing additionally private code used for `AmoebaPrivateNr2` fitting algorithm using Nelder–Mead algorithm based on [Numerical Recipes](http://numerical.recipes). Due to [Numerical Recipes](http://numerical.recipes) licence limitations this code cannot be made publicly available.
 
-
-## What the fields in the yaml file mean
+## Tomato yaml specification
 
 ### Input
 
@@ -28,8 +27,8 @@ A set of DICOM files has to be passed to `TomatoExe` to perform calculation. Thi
 Required
 {: .label .label-blue }
 
-* `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
-* `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [Sample yaml file](#sample-yaml-file).
+* `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [sample yaml file](#sample-yaml-file).
+* `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [sample yaml file](#sample-yaml-file).
 * `dir_magnitude`: a path to the directory where the DICOM files are stored. Should be in quotes.
 * `dir_phase`: a path to the directory where the DICOM files are stored. Should be in quotes.
 
@@ -40,7 +39,7 @@ The output files of `TomatoExe` are DICOM files with **maps** written to the `di
 #### Correct `dir_output_map` is
 {: .d-inline-block }
 
-Important
+Required
 {: .label .label-blue }
 
 * `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
@@ -50,15 +49,15 @@ Important
 
 ### Calculation details
 
-* `parameter_to_map`
+* `parameter_to_map` defines what type of calculation will be used
   * `T1_Molli` T1 calculation as described in [Messroghli's 2004 article](https://doi.org/10.1002/mrm.20110)
   * `T1_Shmolli` T1 calculation as described in [Piechnik's 2010 article](https://doi.org/10.1186/1532-429X-12-69) adapted to `Tomoto` architecture
   * `T1_SHMOLLI_original` The original T1 calculation as described in [Piechnik's 2010 article](https://doi.org/10.1186/1532-429X-12-69)
-* `functions_object`
+* `functions_object` defines the model used for calculations
   * `FunctionsThreeParams` fitting performed using following T1 model: <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}(t)/&space;T_1)" title="M(t) = A - B \exp (- T_{inv}(t)/ T_1)" />
   * `FunctionsTwoParams` fitting performed using following T1 model: <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;(1&space;-&space;exp&space;(-&space;t/&space;T_1))" title="M(t) = A (1 - exp (- t/ T_1))" />
-  * `FunctionsShmolli` fitting performed using following T1 model: <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}(t)/&space;T_1)" title="M(t) = A - B \exp (- T_{inv}(t)/ T_1)" /> with performance tweaks
-* `fitting_method`
+  * `FunctionsShmolli` fitting performed using following T1 model: <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;-&space;B&space;\exp&space;(-&space;T_{inv}(t)/&space;T_1)" title="M(t) = A - B \exp (- T_{inv}(t)/ T_1)" /> with several performance tweaks
+* `fitting_method` defines the fitting algorithm
   * `AmoebaVnl` fitting using Nelder–Mead algorithm implemented in [VNL](https://vxl.github.io/)
   * `LevMarVnl` fitting using Levenberg–Marquardt algorithm implemented in [VNL](https://vxl.github.io/)
   * `AmoebaPrivateNr2` fitting using Nelder–Mead algorithm based on [Numerical Recipes](http://numerical.recipes)
