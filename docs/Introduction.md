@@ -42,7 +42,7 @@ For more information, see the following online resources.
 ## T2
 
 ### What is T2?
-T2 (transversal relaxation time) is a native magnetic property of an organ or a material. T2 is usually measured with **Spin Echo** MRI sequences. A series of images with different echo times is acquired. The T2 recovery can be modelled with a following equation.
+T2 (transversal relaxation time) is a native magnetic property of an organ or a material. T2 is usually measured with **Spin Echo** MRI sequences. A series of images with different echo times is acquired. The T2 recovery can be modelled with the following equation:
 
 <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T_2)" title="M(t) = A exp (- T_E(t)/ T_2)" />
 
@@ -58,7 +58,7 @@ For more information, see the following online resources.
 ## T2star
 
 ### What is T2star?
-T2star (transversal relaxation time) is a native magnetic property of an organ or a material. Unlike T2, T2star is usually measured with **Gradient Echo** MRI sequences. This method is sensitive to the magnetic field inhomogeneities and the observed relaxation is faster that in case of T2. A series of images with different echo times is acquired. The T2 recovery can be modelled with a following equation.
+T2star (transversal relaxation time) is a native magnetic property of an organ or a material. Unlike T2, T2star is usually measured with **Gradient Echo** MRI sequences. This method is sensitive to the magnetic field inhomogeneities and the observed relaxation is faster that of T2. A series of images with different echo times is acquired. The T2 recovery can be modelled with the following equation:
 
 <img src="https://latex.codecogs.com/gif.latex?M(t)&space;=&space;A&space;exp&space;(-&space;T_E(t)/&space;T^*_2)" title="M(t) = A exp (- T_E(t)/ T^*_2)" />
 

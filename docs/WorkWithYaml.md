@@ -5,7 +5,7 @@ nav_order: 3
 
 # Modify calculation parameters in Tomato v0.4.3
 
-As input `TomatoExe` is taking a `yaml` configuration file. In this file all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details).
+`TomatoExe` takes a `yaml` configuration file as input. In this file, all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details).
 
 ## TomatoOpenSource vs TomatoFull
 {: .d-inline-block }
@@ -13,13 +13,13 @@ As input `TomatoExe` is taking a `yaml` configuration file. In this file all the
 Important
 {: .label .label-red }
 
-There are two `Tomato` version available: `TomatoOpenSource` compiled with publicly available code and `TomatoFull` containing additionally private code used for `AmoebaPrivateNr2` fitting algorithm using Nelder–Mead algorithm based on [Numerical Recipes](http://numerical.recipes). Due to [Numerical Recipes](http://numerical.recipes) licence limitations this code cannot be made publicly available.
+There are two `Tomato` versions available: `TomatoOpenSource` compiled with publicly available code and `TomatoFull` containing additionally private code used for the `AmoebaPrivateNr2` fitting algorithm using Nelder–Mead algorithm based on [Numerical Recipes](http://numerical.recipes). Due to [Numerical Recipes](http://numerical.recipes) licence limitations, this code cannot be made publicly available.
 
 ## Tomato yaml specification
 
 ### Input
 
-A set of DICOM files has to be passed to `TomatoExe` to perform calculation. This can be done by a list of file paths or a single directory containing the DICOM files.
+`TomatoExe` has to know the addresses of the DICOM files it uses to calculate the maps. This can be done by providing a list of file paths or a single directory containing the DICOM files.
 
 #### Correct `files_magnitude` or `dir_magnitude` is
 {: .d-inline-block }
@@ -27,10 +27,10 @@ A set of DICOM files has to be passed to `TomatoExe` to perform calculation. Thi
 Required
 {: .label .label-blue }
 
-* `files_magnitude`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [sample yaml file](#sample-yaml-file).
-* `files_phase`: a list of file paths in a form of a yaml list. Each path should be in double quotes. An example can be seen in the [sample yaml file](#sample-yaml-file).
-* `dir_magnitude`: a path to the directory where the DICOM files are stored. Should be in quotes.
-* `dir_phase`: a path to the directory where the DICOM files are stored. Should be in quotes.
+* `files_magnitude`: a list of file paths in the form of a yaml list. Each path should be in double quotation marks. An example can be seen in the [sample yaml file](#sample-yaml-file).
+* `files_phase`: a list of file paths in the form of a yaml list. Each path should be in double quotation marks. An example can be seen in the [sample yaml file](#sample-yaml-file).
+* `dir_magnitude`: a path to the directory where the DICOM files are stored. Should be in quotation marks.
+* `dir_phase`: a path to the directory where the DICOM files are stored. Should be in quotation marks.
 
 ### Output
 
@@ -42,8 +42,8 @@ The output files of `TomatoExe` are DICOM files with **maps** written to the `di
 Required
 {: .label .label-blue }
 
-* `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
-* `dir_output_fitparams`: a path to the directory where the output DICOM files will be save to. Should be in quotes.
+* `dir_output_map`: a path to the directory where the output DICOM files will be save to. Should be in quotation marks.
+* `dir_output_fitparams`: a path to the directory where the output DICOM files will be save to. Should be in quotation marks.
 * `output_map_series_number`: you can specify a series number that will be stored in the DICOM tag of the output DICOM files.
 * `output_fitparams_series_number`: you can specify a series number that will be stored in the DICOM tag of the output DICOM files.
 

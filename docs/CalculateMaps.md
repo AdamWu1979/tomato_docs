@@ -3,23 +3,23 @@ title: Tutorial
 nav_order: 2
 ---
 
-# How to calculate maps with TomatoExe
+# How to calculate maps with TomatoExe?
 
-`TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify what are the input DICOM files and the settings of map calculation a `yaml` file is used as an input. For detailed Toamto `yaml` description see how to [work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
+`TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify the input DICOM files and the settings of map calculation, a `yaml` file is used as an input. For a detailed Tomato `yaml` description, see [how to work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 
 {% include terminal.html %}
 
 ## How to calculate a map - step by step guide
 
-* Download `TomatoExe` for your operating system from here <https://github.com/MRKonrad/tomato/releases/latest>. See the discussion about Tomato `OpenSource` and `Full` version [here](https://mrkonrad.github.io/tomato_docs/docs/WorkWithYaml.html#tomatoopensource-vs-tomatofull).
+* Download `TomatoExe` for your operating system from here: <https://github.com/MRKonrad/tomato/releases/latest>. See the discussion about Tomato `OpenSource` and `Full` version [here](https://mrkonrad.github.io/tomato_docs/docs/WorkWithYaml.html#tomatoopensource-vs-tomatofull).
 
-* Download `testData.zip` from here <https://github.com/MRKonrad/tomato/releases/latest>.
+* Download `testData.zip` from here: <https://github.com/MRKonrad/tomato/releases/latest>.
 
-* Unzip the downloaded files
+* Unzip the downloaded files.
 
 * Prepare a `yaml` configuration file, for example by modifying the ones provided in `testData.zip`, or generate your own one like `myTomatoConfigFile.yml`. For details on how to use `yaml` in `Tomato` please see the section about [working with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 
-* Using command line navigate to the directory with `TomatoExe` file
+* Using command line, navigate to the directory with `TomatoExe` file
 
 * Run TomatoExe
   * on OSX or Linux
@@ -40,14 +40,14 @@ TomatoExe.exe myTomatoConfigFile.yml
 
 ## How to calculate a map - a video guide
 
-A youtube tutorial can be found here <https://www.youtube.com/watch?v=0tzNZNiZh18>
+A YouTube tutorial can be found here <https://www.youtube.com/watch?v=0tzNZNiZh18>
 
 [![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
 
 ## Sample scenarios when Tomato can be used
 
 * when the maps are not generated automatically on the scanners
-* when vendor change the algorithm with witch the automatically generated maps have been calculated
-* when one wants to calculate maps with different algorithm or parameters than these from the scanner
-* when one wants to generate R2 or SNR or SD maps
-* when one wants to ensure that the same algorithm was used to calculate results in their whole study
+* when vendors change the algorithm with which the automatically generated maps have been calculated
+* when one wants to calculate maps with different algorithms or parameters than these from the scanner
+* when one wants to generate R2, SNR or SD maps
+* when one wants to ensure that the same algorithm was used to calculate results in their whole study.
