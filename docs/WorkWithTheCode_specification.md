@@ -4,7 +4,7 @@ parent: TomatoLib
 nav_order: 1
 ---
 
-## Software Requirements Specification
+# Software Requirements Specification
 
 1.  Calculate ShMOLLI with exactly the same results as these from the previous implementation.
 
