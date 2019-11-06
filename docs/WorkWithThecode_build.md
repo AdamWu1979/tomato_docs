@@ -1,6 +1,6 @@
 ---
 title: Build
-parent: Work with the code
+parent: TomatoLib
 nav_order: 2
 ---
 
@@ -15,7 +15,7 @@ Start with looking at the repository <https://github.com/MRKonrad/tomato>, take 
 
 ## Sample terminal session to build tomato
 
-Open your console/terminal and navigate to the directory where you want to have `Tomato` code and build files. 
+Open your console/terminal and navigate to the directory where you want to have `Tomato` code and build files.
 
 ```console
 git clone https://github.com/MRKonrad/tomato.git

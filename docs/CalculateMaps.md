@@ -1,9 +1,11 @@
 ---
-title: Tutorial
+title: TomatoExe tutorial
 nav_order: 2
 ---
 
-# How to calculate maps with TomatoExe?
+# Tutorial
+
+## How to calculate maps with TomatoExe?
 
 `TomatoExe` is a command line tool that allows for map calculation and saving in a DICOM format. To specify the input DICOM files and the settings of map calculation, a `yaml` file is used as an input. For a detailed Tomato `yaml` description, see [how to work with yaml files]({{ site.baseurl }}{% link docs/WorkWithYaml.md %}).
 

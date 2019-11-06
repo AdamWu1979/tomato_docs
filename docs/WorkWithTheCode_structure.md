@@ -1,6 +1,6 @@
 ---
 title: Code structure
-parent: Work with the code
+parent: TomatoLib
 nav_order: 3
 ---
 

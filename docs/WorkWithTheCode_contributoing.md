@@ -1,6 +1,6 @@
 ---
 title: Contributing and code of conduct
-parent: Work with the code
+parent: TomatoLib
 nav_order: 6
 ---
 

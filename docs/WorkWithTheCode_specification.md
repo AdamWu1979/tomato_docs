@@ -1,6 +1,6 @@
 ---
 title: Requirements Specification
-parent: Work with the code
+parent: TomatoLib
 nav_order: 1
 ---
 

@@ -3,7 +3,7 @@ title: Theory
 nav_order: 1
 ---
 
-# Introduction
+# Theory
 
 ## What is a parametric map
 
