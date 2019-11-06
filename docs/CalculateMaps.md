@@ -44,7 +44,7 @@ A YouTube tutorial can be found here <https://www.youtube.com/watch?v=0tzNZNiZh1
 
 [![Tomato tutorial](https://img.youtube.com/vi/0tzNZNiZh18/maxresdefault.jpg)](https://www.youtube.com/watch?v=0tzNZNiZh18)
 
-## Sample scenarios when Tomato can be used
+## Examples of scenarios when Tomato can be used
 
 * when the maps are not generated automatically on the scanners
 * when vendors change the algorithm with which the automatically generated maps have been calculated
