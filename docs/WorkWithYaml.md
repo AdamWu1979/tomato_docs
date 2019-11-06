@@ -3,7 +3,9 @@ title: TomatoExe and yaml files
 nav_order: 3
 ---
 
-# Modify calculation parameters in Tomato v0.4.3
+# TomatoExe and yaml files
+
+## Modify calculation parameters in Tomato v0.4.3
 
 `TomatoExe` takes a `yaml` configuration file as input. In this file, all the processing details can be configured, specifically the [input](#input) data, [output](#output) file destination and [calculation details](#calculation-details).
 

@@ -4,7 +4,7 @@ parent: TomatoLib
 nav_order: 3
 ---
 
-## Code structure
+# Code structure
 
 ![Code Structure](../images/Fig2.png)
 
