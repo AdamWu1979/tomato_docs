@@ -4,7 +4,7 @@ parent: TomatoLib
 nav_order: 5
 ---
 
-## Code snippet
+# Code snippet
 
 ```cpp
 Ox::CalculatorT1Results<double> CalculateShmolli(
